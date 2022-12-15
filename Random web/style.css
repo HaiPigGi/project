@@ -1,0 +1,166 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px
+}
+body {
+margin : 0px;
+padding: 0px;
+background-color:bisque;
+background-image: none;
+}
+.love1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 150;
+    font-style: italic;
+    border: 0px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.love2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 150;
+    font-style: italic;
+    border: 0px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.foto1 {
+    text-align: left;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+
+}
+.foto2 {
+    text-align: left;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+.loving1 {
+margin :30px,30px,30px,30px;
+}
+.loving2 {
+    margin :30px,30px,30px,30px;
+}
+.loving2_1 {
+    margin :30px,30px,30px,30px;
+}
+img {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 700px;
+    image-resolution: 1980px;
+    border: 100px;
+    width: 1080px;
+    height: 990px;
+}
+.button1 ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.button2 {
+    position: sticky;
+    position: -webkit-sticky;
+    font-size: 50px;
+    overflow : hidden;
+    padding: 50px;
+    color: black;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.button2 ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.button1 {
+    position: sticky;
+    position: -webkit-sticky;
+    font-size: 50px;
+    overflow : hidden;
+    padding: 50px;
+    color: black;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.button1 :hover {
+    box-shadow: 0 0 40px 40px #D2691E inset;
+}
+.button2 :hover {
+    box-shadow: 0 0 40px 40px #D2691E inset;
+}
+button {
+    font-weight: 400;
+    border-color:darkred;
+    box-shadow:2px 2px 6px rgba(0, 0, 0, 0.4);
+    background-color :beige;
+    display:inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    color: burlywood;
+    position: relative;
+    cursor: pointer;
+}
+.button1 ul  {
+    margin-right: 60px;
+
+}
+.button1 ul a {
+    margin-right: 20px;
+}
+.button2 ul {
+    margin-right: 60px;
+}
+.button2 ul a {
+    margin-right: 20px;
+}
+.berjalan {
+    height: 90px;
+    width: 100%;
+   
+    overflow: hidden;
+    position: relative;
+    background-color:darkgray;  
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px 0 4px 0;
+    margin-top: 25px;
+}
+.berjalan div {
+    display: inline-block;
+  width: 300%;
+  height: 40px;
+ 
+  position: absolute;
+  overflow: hidden;
+ 
+  animation: berjalan 10s linear infinite;
+}
+.berjalan span {
+    float :left;
+    width: 30%;
+}
+.berjalan h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200px;
+    font-size: 40px;
+    font-style: italic;
+}
+@keyframes berjalan {
+  0% { left: 0; }
+  100% { left: -150%; }
+}
